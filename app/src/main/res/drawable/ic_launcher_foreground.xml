@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Stylus / Pen Body -->
+    <!-- Pen Barrel -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M66,28 L74,36 L46,64 L38,56 Z" />
+    <!-- Stylus Clip / Accent band -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M68,30 L72,34 L69,37 L65,33 Z" />
+    <!-- Pen Nib / Cone -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M38,56 L46,64 L34,70 Z" />
+    <!-- Pen Tip (Fine stylus tip) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M34,70 L30,74 L36,69 Z" />
+    <!-- Fluid dynamic ink wave flowing from the stylus tip -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,74 C34,79 44,79 52,73 C60,67 70,68 76,74" />
+    <!-- Accent ink droplet -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M78,75 A2.5,2.5 0 1,0 83,75 A2.5,2.5 0 1,0 78,75" />
+</vector>
